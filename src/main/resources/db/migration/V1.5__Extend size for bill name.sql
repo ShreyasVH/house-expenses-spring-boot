@@ -1,0 +1,1 @@
+ALTER TABLE bill ALTER COLUMN name type character varying(256);
