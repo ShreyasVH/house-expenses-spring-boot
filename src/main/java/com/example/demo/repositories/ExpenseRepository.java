@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ExpenseRepository extends JpaRepository<Expense, Long>, ExpenseCustomRepository {
-	List<Expense> findAllByBillId(Long billId);
+	List<Expense> findAllByBillIdOrderByReceiptDateDesc(Long billId);
 }

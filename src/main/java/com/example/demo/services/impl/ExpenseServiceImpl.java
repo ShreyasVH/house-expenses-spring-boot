@@ -35,6 +35,6 @@ public class ExpenseServiceImpl implements ExpenseService {
 
 	@Override
 	public List<Expense> getExpenseForBill(Long billId) {
-		return expenseRepository.findAllByBillId(billId);
+		return expenseRepository.findAllByBillIdOrderByReceiptDateDesc(billId);
 	}
 }
