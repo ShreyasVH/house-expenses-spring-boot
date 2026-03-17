@@ -38,3 +38,6 @@ build/
 
 server.log
 compile.log
+parentUpdates.txt
+dependencyUpdates.txt
+pluginUpdates.txt
