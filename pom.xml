@@ -16,8 +16,8 @@
 
 	<properties>
 		<java.version>25</java.version>
-		<lombok.version>1.18.46</lombok.version>
-		<flyway.version>13.3.0</flyway.version>
+		<lombok.version>1.18.48</lombok.version>
+		<flyway.version>13.6.0</flyway.version>
 		<jackson.version>2.22.2</jackson.version>
 		<postgresql.version>42.7.13</postgresql.version>
 	</properties>
